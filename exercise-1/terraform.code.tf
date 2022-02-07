@@ -20,7 +20,8 @@ variable "AMIS" {
     #   AMI shortcut (AMAZON MACHINE IMAGE)
     #
     # *******************************************
-    eu-central-1 = "ami-415b7baa"
+    eu-central-1 = "ami-415b7baa",
+    us-east-1="ami-01b996646377b6619"
   }
 }
 
