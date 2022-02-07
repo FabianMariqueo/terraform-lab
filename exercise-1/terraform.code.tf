@@ -8,7 +8,7 @@ variable "AWS_REGION" {
   default = "eu-central-1"
 }
 variable "AMIS" {
-  type = "map"
+  type = map(string)
   default = {
     # *******************************************
     # https://cloud-images.ubuntu.com/locator/ec2/
